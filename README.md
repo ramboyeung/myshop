@@ -242,24 +242,30 @@ cat ~/.ssh/id_rsa.pub
 
 git remote add origin 远仓地址
 
-git checkout -b ylb-dev
+git checkout -b feature origin/feature 【建立映射，并从远仓上拉取对应分支代码，等同于git branch --track feature origin/feature，再git switch feature，注意checkout切换等同于switch，checkout -b等同于switch -c】
 
-git branch ylb-dev-02
+git checkout -b ylb-dev或git switch -c ylb-dev   【本地建立开发分支并同时切换到这个开发分支上，开发之前务必做此操作，保持映射的分支上拉取的代码永远是干净的，不受开发污染】
 
-git rebase master
+git add .
 
-git checkout master
+git commit -m "feat: 首次提交，搭建项目骨架"
 
-git rebase ylb-dev
+git checkout feature或git switch feature
 
-git add . && git commit -m "feat:新增登录模块"
+git merge ylb-dev --no-ff  【参数说明，参考：https://blog.csdn.net/qq_40999917/article/details/103316870】
 
-git push origin master
+git push origin feature
+
+git switch ylb-dev【为避免下次开发忘记，先切回开发分支，好习惯需要养成（好习惯1）。当然你也可以删了这个分支：git branch -d ylb-dev，下次开发再另建分支（随用随建，用完就删，好习惯2），本人用的是好习惯1】
+
+开发之前，请建开发分支并切换到开发分支，再git pull origin feature，pull完之后再开发哈，切记切记，诸君切记！
+
 ---
+
 其他：
 
-git config --global --list
-
+git config --global --list或git config --global -l
+git config --list
 git branch -vv
 
 git remote -v
