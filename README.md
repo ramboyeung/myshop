@@ -1,3 +1,4 @@
+[TOC]
 # myshop
 
 ## Project setup
@@ -128,6 +129,104 @@ eslint报错解决参考：
 https://www.php.cn/tool/vscode/435419.html
 
 https://www.it610.com/article/1297093574302703616.htm
+
+## vscode配置自动修复eslint
+参考：
+http://t.zoukankan.com/layaling-p-10821529.html
+
+文件 -> 首选项 -> 设置 ->找到eslint，往下扒拉找到settings.json，编辑json文件。
+```
+"vetur.format.defaultFormatter.js": "prettier-eslint",
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatterOptions": {
+    "wrap_attributes": "force-aligned"
+  },
+  //配置eslint保存时自动修复
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+  "editor.detectIndentation": false,
+  // 重新设定tabsize
+  "editor.tabSize": 2,
+  // "editor.formatOnSave": true,  // 保存时自动格式化 --vscode编辑器自带自动格式化会与设置的eslint规范有所冲突导致eslint报错
+  "eslint.autoFixOnSave": true, //保存时使用eslint规范自动格式化
+  // 添加 vue 支持
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+  "prettier.eslintIntegration": true, // 让prettier使用eslint的代码格式进行校验 （如果未安装prettier或者不需要prettier格式化可以不用设置prettier这些属性）
+  "prettier.semi": false,  // 去掉代码结尾的分号 
+  "prettier.singleQuote": true,  // 使用带引号替代双引号 
+```
+
+## 本人使用的vscode中eslint相关json配置项（会自动格式化）：
+```
+{
+  //配置eslint
+  // vscode默认启用了根据文件类型自动设置tabsize的选项
+  "editor.detectIndentation": false,
+  // 重新设定tabsize
+  "editor.tabSize": 2,
+  // #每次保存的时候自动格式化
+  "editor.formatOnSave": true,
+  // 添加 vue 支持
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+  // #让prettier使用eslint的代码格式进行校验
+  "prettier.eslintIntegration": true,
+  // #去掉代码结尾的分号
+  "prettier.semi": false,
+  // #使用单引号替代双引号
+  "prettier.singleQuote": true,
+  // #让函数(名)和后面的括号之间加个空格
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  // #让vue中的js按编辑器自带的ts格式进行格式化
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "force-aligned"
+      // #vue组件中html代码格式化样式
+    }
+  },
+  "window.zoomLevel": 0,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "all",
+  "workbench.iconTheme": "material-icon-theme",
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.migration.2_x": "off",
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "eslint.nodeEnv": "",
+  "workbench.editor.enablePreview": false,
+  "eslint.autoFixOnSave": true,
+  "eslint.codeAction.disableRuleComment": {
+    "enable": true,
+    "location": "separateLine"
+  },
+  "eslint.rules.customizations": [
+  
+  ]
+}
+```
 
 ## git 常用操作：
 
