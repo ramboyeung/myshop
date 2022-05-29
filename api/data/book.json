@@ -1,0 +1,171 @@
+{
+    "code": 0,
+    "message": "",
+    "data": {
+        "shelfs":[
+            {
+                "list_id":1,
+                "til":"今日推荐",
+                "shelf_time":1502426541,
+                "end_time":2002566454,
+                "book_list":[
+                    {
+                        "book_id":1,
+                        "bookName": "菊与刀",
+                        "book_info": "亚马逊《菊与刀》特惠7.9折",
+                        "now_price": "39.34",
+                        "origin_price": "49.80",
+                        "discount":"7.9",
+                        "buyers_num":48,
+                        "book_cover": "http://yamaxun.yixingfc.com/usr/uploads/2017/08/2091606793.jpg",
+                        "shelf_time":1502426541,
+                        "end_time":1802566454,
+                        "stock_num":78,
+                        "detail":{
+                            "published_time":1502123343,
+                            "author":"(美)鲁思·本尼迪克特",
+                            "publisher":"台海出版社",
+                            "paper_material":"胶版纸",
+                            "book_gist":"本书从对战争的看法讲起，讲到明治维新，再分述日本人风俗习惯、道德观念、一直到怎样“自我训练”（修养）和孩子怎样受教育。全书夹叙夹议，抛开了对樱花、茶道、武士道等煽情描述，更多是对家庭关系、精神信仰进行白描式的对比，诸如美国人和日本人看待健康、物质、战争宣传、家族关系等的不同观念。"
+                        }
+                    },
+                    {
+                        "book_id":2,
+                        "bookName": "失孤",
+                        "book_info": "亚马逊《失孤》特惠7.2折",
+                        "now_price": "25.9",
+                        "origin_price": "36.00",
+                        "discount":"7.9",
+                        "buyers_num":124,
+                        "book_cover": "http://yamaxun.yixingfc.com/usr/uploads/2015/03/636447629.jpg",
+                        "shelf_time":1502426541,
+                        "end_time":1802566454,
+                        "stock_num":78,
+                        "detail":{
+                            "published_time":1502123343,
+                            "author":"彭三源 著 刘程程 改编",
+                            "publisher":"长江文艺出版社",
+                            "paper_material":"胶版纸",
+                            "book_gist":"父亲雷泽宽两岁的儿子丢了，于是他穿越大半个中国开始了长达十五年的寻子之路。途中雷泽宽遇到了警察也遇到路人，偶然一次修车经历让他遇到了幼时被拐的修车小伙子曾帅，在了解到雷泽宽的寻子历程之后，曾帅不仅没有收取修车费用，更与雷泽宽一起踏上寻亲之旅，途中两人建立了父子般的情谊。"
+                        }
+                    }
+                ]   
+            },
+            {
+                "list_id":2,
+                "til":"热门图书",
+                "shelf_time":1502426541,
+                "end_time":2002566454,
+                "book_list":[
+                    {
+                        "book_id":1,
+                        "bookName": "人五人六",
+                        "book_info": "亚马逊《人五人六》特惠6.7折",
+                        "now_price": "24.00",
+                        "origin_price": "36.00",
+                        "discount":"6.7",
+                        "buyers_num":120,
+                        "book_cover": "http://yamaxun.yixingfc.com/usr/uploads/2017/12/2553458345.jpg",
+                        "shelf_time":1502426541,
+                        "end_time":1802566454,
+                        "stock_num":5,
+                        "detail":{
+                            "published_time":1502123343,
+                            "author":"张发财",
+                            "publisher":"岳麓书社",
+                            "paper_material":"纯质纸",
+                            "book_gist":"《人五人六》是张发财以历史人物为主题的文章结集。不同于他著名的微博历史小段子，张发财用一篇一篇两三千字的精炼文章，使众多的历史人物跃然纸上。"
+                        }
+                    },
+                    {
+                        "book_id":2,
+                        "bookName": "一家之主",
+                        "book_info": "亚马逊《一家之主》特惠5.0折",
+                        "now_price": "16.40",
+                        "origin_price": "32.80",
+                        "discount":"5.0",
+                        "buyers_num":85,
+                        "book_cover": "http://yamaxun.yixingfc.com/usr/uploads/2015/03/3549176870.jpg",
+                        "shelf_time":1502426541,
+                        "end_time":1802566454,
+                        "stock_num":36,
+                        "detail":{
+                            "published_time":1502123343,
+                            "author":"冀艳敏 著",
+                            "publisher":"天津人民出版社",
+                            "paper_material":"胶版纸",
+                            "book_gist":"一对惊世至宝元青花梅瓶，搅动了一个平凡家族的宁静。幕后奸商一心觊觎，制造重重事端，浓重的阴影笼罩着平凡善良的一家人。巨大的困境以及人性本质的贪婪，不断捶打着孤独疲惫的老人。要守住家族，还是守住60年前的千金一诺？"
+                        }
+                    }
+                ]   
+            },
+            {
+                "list_id":3,
+                "til":"即将上架",
+                "shelf_time":1502426541,
+                "end_time":2002566454,
+                "book_list":[
+                    {
+                        "book_id":1,
+                        "bookName": "这么慢，那么美",
+                        "book_info": "亚马逊《这么慢,那么美》特惠6.9折",
+                        "now_price": "24.80",
+                        "origin_price": "36.00",
+                        "discount":"6.9",
+                        "buyers_num":2,
+                        "book_cover": "http://yamaxun.yixingfc.com/usr/uploads/2016/07/2900051326.jpg",
+                        "shelf_time":1502426541,
+                        "end_time":1802566454,
+                        "stock_num":155,
+                        "detail":{
+                            "published_time":1502123343,
+                            "author":"罗敷",
+                            "publisher":"中国友谊出版公司",
+                            "paper_material":"纯质纸",
+                            "book_gist":"《这么慢，那么美》是一位在北欧瑞典生活10年的中国MM，描写他对当地生活、文化教育、经济等方方面面的观察体会，描写北欧人如何以慢博快，以简博繁，有舍方得。"
+                        }
+                    }
+                ]   
+            }
+        ],
+        "slide_img":[
+            {
+              "pic_id":1,
+              "picture":"http://img60.ddimg.cn/upload_img/00316/by/750x315-1-1586254380.jpg",
+              "start_time":1502426541,
+              "end_time":2002566454
+            },
+            {
+              "pic_id":2,
+              "picture":"http://img63.ddimg.cn/upload_img/00838/cxtc/750x315--1586243009.jpg",
+              "start_time":1502426541,
+              "end_time":2002566454
+            },
+            {
+              "pic_id":3,
+              "picture":"http://img60.ddimg.cn/upload_img/00796/xssd202004/sxj750x315-1586242330.jpg",
+              "start_time":1502426541,
+              "end_time":2002566454
+            },
+            {
+              "pic_id":4,
+              "picture":"http://img61.ddimg.cn/topic_img/gys_04099/20200317_Spring5_zttj_750X315.jpg",
+              "start_time":1502426541,
+              "end_time":2002566454
+            },
+            {
+              "pic_id":5,
+              "picture":"http://img60.ddimg.cn/topic_img/gys_04001/hauzhangjsj20200423750315.jpg",
+              "start_time":1502426541,
+              "end_time":2002566454
+            }
+        ],
+        "status_map": {
+            "siging": "\u62a5\u540d\u4e2d",
+            "signed": "\u62a5\u540d\u622a\u81f3",
+            "processing": "\u8003\u8bd5\u4e2d",
+            "end": "\u5df2\u7ed3\u675f",
+            "PUBLISHED": "\u6392\u540d\u5df2\u53d1\u5e03"
+        }
+    }
+}

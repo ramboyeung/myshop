@@ -1,0 +1,204 @@
+{
+    "code": 0,
+    "message": "",
+    "data": {
+        "list": [
+            {
+                "id": 5,
+                "name": "test",
+                "description": "desc",
+                "sign_time": 1503491757,
+                "app_pic_id": 3,
+                "web_pic_id": 3,
+                "h5_url": "https:\/\/www.baidu.com",
+                "award_content": "[{\"min\":1,\"max\":6,\"content\":\"50\\u4f18\\u60e0\\u5238\"}]",
+                "is_published": 0,
+                "start_time": 1503491757,
+                "end_time": 1562933987,
+                "create_time": 1562827698,
+                "modified_time": 1562840246,
+                "paper_list": [
+                    {
+                        "id": 10,
+                        "mock_exam_competition_id": 5,
+                        "paper_id": 228,
+                        "start_time": 1503491758,
+                        "end_time": 1503491757,
+                        "paper": {
+                            "id": 228,
+                            "name": "\u8bd5\u53771",
+                            "description": "\u563f\u563f\u563f",
+                            "time_limit": 90,
+                            "question_num": 3,
+                            "score": 6,
+                            "is_percentage": 1,
+                            "type": "standard",
+                            "is_published": 0,
+                            "published_time": 0,
+                            "show_time": 0,
+                            "create_time": 1502426541,
+                            "modified_time": "2017-11-22 11:04:02",
+                            "attr": 2,
+                            "is_subject_id": 1,
+                            "paper_type": 3,
+                            "file_id": 0,
+                            "complete_name": null,
+                            "sj_product_id": null
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "mock_exam_competition_id": 5,
+                        "paper_id": 236,
+                        "start_time": 1503491757,
+                        "end_time": 1503491757,
+                        "paper": {
+                            "id": 236,
+                            "name": "123123\u4e0d\u6562\u8ba9\u4ed6\u53bb\u4e0d\u53bb\u8ba9\u4ed6\u672c\u4eba\u5374\u4e0d\u80fd\u8ba9\u6b65123123\u4e0d\u6562\u8ba9\u4ed6\u53bb\u4e0d\u53bb\u8ba9\u4ed6\u672c\u4eba\u5374\u4e0d\u80fd\u8ba9\u6b65123123\u4e0d\u6562\u8ba9\u4ed6\u53bb\u4e0d\u53bb\u8ba9\u4ed6\u672c\u4eba\u5374\u4e0d\u80fd\u8ba9\u6b65123123\u4e0d\u6562\u8ba9\u4ed6\u53bb\u4e0d\u53bb\u8ba9\u4ed6\u672c\u4eba\u5374\u4e0d\u80fd\u8ba9\u6b65123123\u4e0d\u6562\u8ba9\u4ed6\u53bb\u4e0d",
+                            "description": "123123",
+                            "time_limit": 90,
+                            "question_num": 12,
+                            "score": 20,
+                            "is_percentage": 1,
+                            "type": "subject",
+                            "is_published": 0,
+                            "published_time": 0,
+                            "show_time": 0,
+                            "create_time": 1502962398,
+                            "modified_time": "2017-12-07 10:51:23",
+                            "attr": 1,
+                            "is_subject_id": 63,
+                            "paper_type": 2,
+                            "file_id": 0,
+                            "complete_name": null,
+                            "sj_product_id": null
+                        }
+                    }
+                ],
+                "award": [
+                    {
+                        "min": 1,
+                        "max": 6,
+                        "content": "50\u4f18\u60e0\u5238"
+                    }
+                ],
+                "user_num": 2
+            },
+            {
+                "id": 6,
+                "name": "test",
+                "description": "desc",
+                "sign_time": 1563187161,
+                "app_pic_id": 3,
+                "web_pic_id": 3,
+                "h5_url": "https:\/\/www.baidu.com",
+                "award_content": "[{\"min\":1,\"max\":6,\"content\":\"50\\u4f18\\u60e0\\u5238\"}]",
+                "is_published": 0,
+                "start_time": 1503491758,
+                "end_time": 1563187161,
+                "create_time": 1562827463,
+                "modified_time": 1562827463,
+                "paper_list": [
+                    {
+                        "id": 2,
+                        "mock_exam_competition_id": 6,
+                        "paper_id": 228,
+                        "start_time": 1503491757,
+                        "end_time": 1503491757,
+                        "paper": {
+                            "id": 228,
+                            "name": "\u8bd5\u53771",
+                            "description": "\u563f\u563f\u563f",
+                            "time_limit": 90,
+                            "question_num": 3,
+                            "score": 6,
+                            "is_percentage": 1,
+                            "type": "standard",
+                            "is_published": 0,
+                            "published_time": 0,
+                            "show_time": 0,
+                            "create_time": 1502426541,
+                            "modified_time": "2017-11-22 11:04:02",
+                            "attr": 2,
+                            "is_subject_id": 1,
+                            "paper_type": 3,
+                            "file_id": 0,
+                            "complete_name": null,
+                            "sj_product_id": null
+                        }
+                    }
+                ],
+                "award": [
+                    {
+                        "min": 1,
+                        "max": 6,
+                        "content": "50\u4f18\u60e0\u5238"
+                    }
+                ],
+                "user_num": 0
+            },
+            {
+                "id": 1,
+                "name": "test",
+                "description": "desc",
+                "sign_time": 1503491757,
+                "app_pic_id": 3,
+                "web_pic_id": 3,
+                "h5_url": "https:\/\/www.baidu.com",
+                "award_content": "[{\"min\":1,\"max\":6,\"content\":\"50\\u4f18\\u60e0\\u5238\"}]",
+                "is_published": 0,
+                "start_time": 0,
+                "end_time": 0,
+                "create_time": 0,
+                "modified_time": 0,
+                "paper_list": [],
+                "award": [
+                    {
+                        "min": 1,
+                        "max": 6,
+                        "content": "50\u4f18\u60e0\u5238"
+                    }
+                ],
+                "user_num": 0
+            },
+            {
+                "id": 2,
+                "name": "test",
+                "description": "desc",
+                "sign_time": 1503491757,
+                "app_pic_id": 3,
+                "web_pic_id": 3,
+                "h5_url": "https:\/\/www.baidu.com",
+                "award_content": "[{\"min\":1,\"max\":6,\"content\":\"50\\u4f18\\u60e0\\u5238\"}]",
+                "is_published": 0,
+                "start_time": 0,
+                "end_time": 0,
+                "create_time": 0,
+                "modified_time": 0,
+                "paper_list": [],
+                "award": [
+                    {
+                        "min": 1,
+                        "max": 6,
+                        "content": "50\u4f18\u60e0\u5238"
+                    }
+                ],
+                "user_num": 0
+            }
+        ],
+        "pagination": {
+            "perPage": 20,
+            "totalCount": 4,
+            "start": 0,
+            "totalPage": 1,
+            "curPage": 1
+        },
+        "status_map": {
+            "siging": "\u62a5\u540d\u4e2d",
+            "signed": "\u62a5\u540d\u622a\u81f3",
+            "processing": "\u8003\u8bd5\u4e2d",
+            "end": "\u5df2\u7ed3\u675f",
+            "PUBLISHED": "\u6392\u540d\u5df2\u53d1\u5e03"
+        }
+    }
+}

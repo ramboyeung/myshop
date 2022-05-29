@@ -1,0 +1,7 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+      "slideimgs":[{"id":1,"from":"https://s11.mogucdn.com/mlcdn/c45406/200301_75i5l2l5alcfl7b307fi38f1eja12_1125x390.jpg_750x9999.v1c7E.81.webp"},{"id":2,"from":"https://s18.mogucdn.com/mlcdn/c45406/200301_5bb4g6f3k1f6edah363l3k3k3216a_1125x390.jpg_750x9999.v1c7E.81.webp"},{"id":3,"from":"https://s17.mogucdn.com/mlcdn/c45406/200228_19ij1jg33a28cfgh7k22ajj5kg0b3_1125x390.jpg_750x9999.v1c7E.81.webp"}]
+  }
+}
