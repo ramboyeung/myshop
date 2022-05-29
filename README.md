@@ -230,7 +230,8 @@ http://t.zoukankan.com/layaling-p-10821529.html
 
 ## git 常用操作：
 
-第一次：远仓只有一个文件夹无代码的话pull不了（会报错）
+注意1：初次次远仓建仓无内容，本地关联并提交之前，无法pull哦！只有一个文件夹无代码的话pull不了（会报错）
+注意2: 在公司里，我们首次克隆的项目，一定要分清远仓有多少个分支，公司规定哪些分支不能push，提交代码应该往哪个分支push，非常重要，非常重要哈！
 
 git config --global user.name "ylb"
 
@@ -240,7 +241,9 @@ ssh-keygen -t rsa -C "ylb@126.com"
 
 cat ~/.ssh/id_rsa.pub
 
-git remote add origin 远仓地址
+git remote add origin 远仓地址   【适用场景：远仓完全无内容，需本地提交到远仓】
+
+git clone xxx.git地址   【适用场景：初次进公司，需要拉代码】
 
 git checkout -b feature origin/feature 【建立映射，并从远仓上拉取对应分支代码，等同于git branch --track feature origin/feature，再git switch feature，注意checkout切换等同于switch，checkout -b等同于switch -c】
 
@@ -264,11 +267,17 @@ git switch ylb-dev【为避免下次开发忘记，先切回开发分支，好�
 
 其他：
 
-git config --global --list或git config --global -l
-git config --list
-git branch -vv
+git config --global --list或git config --global -l  【查看全局的配置】
 
-git remote -v
+git config --list  【查看所有的配置】
+
+git branch -a   【检出所有分支，包含本地和远仓的】
+
+git branch -av   【查看所有的改动，包含了远仓和本地的】
+
+git branch -vv  【查看本地分支对应的远程分支】
+
+git remote -v  【查看本地分支关联的远仓地址】
 
 git pull origin master && git push -u origin master
 
